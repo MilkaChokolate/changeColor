@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Lobster', cursive;
+    font-size: 42px;
+    background: linear-gradient(to bottom right, #ffffff, #000000);
+}
+button{
+    height: 50px;
+    width: 250px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin:10px;
+}
+#hexTitle {
+    height: 15vh;
+    width:100%
+}
+#hexBtns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
